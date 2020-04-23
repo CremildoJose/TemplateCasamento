@@ -5,21 +5,22 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    font-family: 'Roboto', sans-serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 .container{
   text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
+  transform: translate(-50%, -55%);
+  
 }
 .btn{
     margin-top: 10px;
-    text-decoration: none;
+    text-decoration: aqua;
     color: white;
-    background-color: #FF3399;
+    background-color: rgb(141, 19, 68);
     border: none;
     border-radius: 30px;
     padding: 14px 28px;
@@ -35,15 +36,17 @@ body{
 h1{
     font-size: 80px;
     color: whitesmoke;
+    opacity: 60%;
 }
 .nav__links{
     display: inline-block;
+
 }
 ul{
     list-style-type: none;
     margin: 0;
-  padding: 0;
-  overflow: hidden;
+    padding: 0;
+     overflow: auto;
 }
 li {
     float: left;
@@ -54,7 +57,7 @@ li a {
     color: whitesmoke;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    text-decoration: wavy;
     font-size: 19px;
 }
 
@@ -63,7 +66,7 @@ li a {
 }
 */
 li a:hover{
-border-bottom: 2px solid whitesmoke;
+border-bottom: 2px solid wheat;
 }
 .link__right{
     float: right;
